@@ -1,0 +1,57 @@
+/*
+ * error.h
+ *
+ * Created: 19. 7. 2015 12:24:24
+ *  Author: Martin
+ */ 
+
+
+#ifndef ERROR_H_
+#define ERROR_H_
+
+
+#define SERVER_ERROR_SUCCESS						0
+#define SERVER_ERROR_UNKNOWN_COMMAND				1
+#define SERVER_ERROR_INVALID_INPUT					2
+#define SERVER_ERROR_NOT_A_HEX_DIGIT				3
+#define SERVER_ERROR_NOT_A_DEC_DIGIT				4
+#define SERVER_ERROR_NOT_A_BINARY_DIGIT				5
+#define SERVER_ERROR_INVALID_NUMBER_BASE			6
+#define SERVER_ERROR_NOT_A_PROGRAM_NUMBER			7
+#define SERVER_ERROR_INVALID_MINUTE_VALUE			8
+#define SERVER_ERROR_INVALID_SECOND_VALUE			9
+#define SERVER_ERROR_INVALID_INSTRUCTION_NUMBER		10
+#define SERVER_ERROR_INVALID_INSTRUCTION_PREFIX     11
+#define SERVER_ERROR_INVALID_PORT_LETTER            12
+#define SERVER_ERROR_INVALID_BIT_NUMBER             13
+#define SERVER_ERROR_COMMAND_NOT_FINISHED           14
+#define SERVER_ERROR_INVALID_CONFIG_FIELD           15
+
+#define SERVER_ERROR_MIN                             1
+#define SERVER_ERROR_MAX                            15
+
+#define PROGRAM_ERROR_SUCCESS                   0
+#define PROGRAM_ERROR_INVALID_PROGRAM_NUMBER    64
+#define PROGRAM_ERROR_NO_PROGRAM_SELECTED       65
+#define PROGRAM_ERROR_NO_PROGRAM_ACTIVE         66
+#define PROGRAM_ERROR_PROGRAM_DOES_NOT_EXIST    67
+#define PROGRAM_ERROR_NO_INSTRUCTIONS_AVAILABLE 68
+#define PROGRAM_ERROR_NO_SUCH_INSTRUCTION_INDEX 69
+#define PROGRAM_ERROR_NOT_LOADED                70
+#define PROGRAM_ERROR_ALREADY_ACTIVE            71
+#define PROGRAM_ERROR_COMMAND_DISABLED          72
+#define PROGRAM_ERROR_NO_PROGRAM_ID_AVAILABLE   0xff
+
+#define PROGRAM_ERROR_MIN                       64
+#define PROGRAM_ERROR_MAX                       72
+
+
+#define CONFIG_ERROR_SUCCESS                      0
+#define CONFIG_ERROR_INVALID_FIELD              128
+#define CONFIG_ERROR_INVALID_VALUE              129
+
+#define CONFIG_ERROR_MIN                        128
+#define CONFIG_ERROR_MAX                        129
+
+
+#endif /* ERROR_H_ */

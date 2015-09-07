@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "twi-to-usart", "twi-to-usart.cproj", "{7FB3AAF3-E977-4CC4-B956-9DD0DB092175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FB3AAF3-E977-4CC4-B956-9DD0DB092175}.Debug|AVR.ActiveCfg = Debug|AVR
+		{7FB3AAF3-E977-4CC4-B956-9DD0DB092175}.Debug|AVR.Build.0 = Debug|AVR
+		{7FB3AAF3-E977-4CC4-B956-9DD0DB092175}.Release|AVR.ActiveCfg = Release|AVR
+		{7FB3AAF3-E977-4CC4-B956-9DD0DB092175}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
